@@ -100,7 +100,7 @@ export const TagsInput = ({
           disabled={disabled}
         />
       ))}
-
+      <i className="ri-search-line"></i>
       <input
         className={cc("rti--input", classNames?.input)}
         type="text"
